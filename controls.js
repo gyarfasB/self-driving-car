@@ -23,7 +23,7 @@ class Controls{
                     this.reverse=true
                     break       
             }
-            console.table(this)
+            //console.table(this)
         }
         document.onkeyup=(event)=>{ //ha az arrowfunciont használod, akkor a funkció vissza tud nyúlni a fentiekhez
             switch(event.key){
@@ -40,7 +40,7 @@ class Controls{
                     this.reverse=false
                     break       
             }
-            console.table(this)
+            //console.table(this)
         }
     }
 }
